@@ -1,12 +1,4 @@
-# Namespaced project name that the target belongs to
 project: komiser
-
-# Target name (should be unique within the project)
 target: komiser-services-ini-fuzz
-
-# Base image to run the binary in.
-# image: ghcr.io/lotdeef/komiser:latest
-
-# List of commands used to test the target
 cmds:
-  - cmd: ./fuzz.libfuzzer
+  - cmd: ./services-ini-fuzz.libfuzzer
