@@ -1,0 +1,4 @@
+project: komiser
+target: komiser-services-ini-fuzz
+cmds:
+  - cmd: ./services-ini-fuzz.libfuzzer
